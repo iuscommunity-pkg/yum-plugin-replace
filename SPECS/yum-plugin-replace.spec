@@ -1,13 +1,13 @@
 
 Name: yum-plugin-replace        
-Version:    0.2.5
+Version:    0.2.6
 Release:    1.ius%{?dist}
 Summary:    Package Replacement Plugin for Yum
 
 Group:      System Environment/Base     
 License:    GPL
-URL:        http://github.com/derks/yum-plugin-replace
-Source0:    http://dl.iuscommunity.org/pub/%{name}/%{name}-%{version}.tar.gz
+URL:        https://github.com/iuscommunity/yum-plugin-replace 
+Source0:    https://github.com/iuscommunity/%{name}/archive/%{version}.tar.gz
 BuildRoot:  %(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 BuildArch:  noarch
 
@@ -52,6 +52,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Tue Jun 25 2013 Ben Harper <ben.harper@rackspace.com> - 0.2.6-1.ius
+- pulling in https://github.com/iuscommunity/yum-plugin-replace/pull/4
+- pulling in https://github.com/iuscommunity/yum-plugin-replace/pull/5
 
 * Mon Sep 24 2012 jeffrey.ness@rackspace.com - 0.2.5-1.ius
 - Attempt to auto resolve when multiple provides are found
