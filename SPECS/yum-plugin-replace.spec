@@ -7,7 +7,7 @@ Summary:    Package Replacement Plugin for Yum
 Group:      System Environment/Base     
 License:    GPL
 URL:        https://github.com/iuscommunity/yum-plugin-replace 
-Source0:    https://github.com/iuscommunity/%{name}/archive/%{version}.tar.gz
+Source0:     https://codeload.github.com/iuscommunity/%{name}/tar.gz/%{version}
 BuildRoot:  %(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 BuildArch:  noarch
 
