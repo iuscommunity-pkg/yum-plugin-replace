@@ -1,6 +1,6 @@
 
 Name: yum-plugin-replace        
-Version:    0.2.6
+Version:    0.2.7
 Release:    1.ius%{?dist}
 Summary:    Package Replacement Plugin for Yum
 
@@ -52,6 +52,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Tue Aug 05 2014 Ben Harper <ben.harper@rackspace.com> - 0.2.7-1.ius
+- pulling in https://github.com/iuscommunity/yum-plugin-replace/pull/6
+
 * Tue Jun 25 2013 Ben Harper <ben.harper@rackspace.com> - 0.2.6-1.ius
 - pulling in https://github.com/iuscommunity/yum-plugin-replace/pull/4
 - pulling in https://github.com/iuscommunity/yum-plugin-replace/pull/5
